@@ -1,0 +1,165 @@
+@import url("fonts/YanoneKaffeesatz.css");
+@import url("fonts/OpenSans.css");
+
+:root {
+    --Caveat: "Caveat", cursive;
+    --YanoneKaffeesatz: "Yanone Kaffeesatz", sans-serif;
+    --OpenSans: "Open Sans", sans-serif;
+    --chinese: "chinese"
+}
+
+.d-formu .inp {
+    background-color: rgb(234, 227, 215);
+    width: 620px;
+    height: 620px;
+    margin-left: 30%;
+    margin-top: 130px;
+
+}
+
+.inp .wel {
+    display: flex;
+
+
+}
+
+.wel {
+    margin-left: 25px;
+    color: #744F28;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.inp .wel input {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.tex {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #744F28;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tex2 {
+    color: #744F28;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tex1{
+    color: #744F28;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tex3 {
+    color: #744F28;
+    margin-left: 20px;
+}
+
+.regis {
+    margin: 2%;
+    color: #744F28;
+
+}
+
+h4 {
+    text-align: left;
+    margin: 2%;
+}
+
+.botons {
+    align-items: center;
+    cursor: pointer;
+    border: solid 2px gray;
+    border-radius: 24px;
+    background: rgb(233, 215, 197);
+    color: #352b19;
+    width: 200px;
+    height: 46px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.botons a {
+    color: unset;
+
+}
+
+.link {
+    border-bottom: #744F28 1px solid;
+    margin-top: 20px;
+    opacity: 0.4;
+}
+
+.card {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.relleno {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 37px;
+    border-radius: 12px;
+    text-align: -webkit-center;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0.1px solid rgba(66, 65, 65, 0.308);
+}
+.rel{
+    background-color: rgb(255, 255, 255);
+
+    margin-top: 16px;
+    margin-left: 20px;
+    width: 300px;
+    height: 37px;
+    border-radius: 12px;
+    text-align: -webkit-center;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0.1px solid rgba(66, 65, 65, 0.308);
+}
+.tex3 {
+    width: 10px;
+}
+
+.relleno2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 12px;
+    width: 50px;
+    height: 37px;
+    border-radius: 10px;
+    border: 0.1px solid rgba(66, 65, 65, 0.308);
+}
+
+.tarje {
+    position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+    visibility: hidden;
+}
+.active {
+    visibility: visible;
+    }
+    #botn2:checked ~ .tarje{
+      visibility: visible;
+      }
+      .cerrar{
+        margin-right: 2%;
+      }
+      

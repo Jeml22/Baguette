@@ -1,0 +1,241 @@
+@import url("fonts/YanoneKaffeesatz.css");
+@import url("fonts/OpenSans.css");
+
+:root {
+  --Caveat: "Caveat", cursive;
+  --YanoneKaffeesatz: "Yanone Kaffeesatz", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --chinese:"chinese"
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+
+html {
+  background-color: whitesmoke; 
+}
+
+/* Inicio desarrollo */
+
+    .Encabezado .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: dotted 1px #A6864F;
+      height: 105px;
+    }
+      .logo img{
+        width: 162px;
+        height: 141px;
+      }
+  .conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .conteiner .c-imagen{
+      display: flex;
+      justify-content: center;
+      padding-top: 1.5rem;
+      
+    }
+      .c-imagen div{
+        background-color: #744F2870;
+        padding: 7px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+        .c-imagen img{
+          height: 750px;
+          width: 1146px;
+          max-width: 100%;
+        }
+
+        .c-imagen i{
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          font-size: 40px;
+          color: rgb(234, 227, 215);
+          background-color: #312f2d7a;
+          max-width: 70%;
+          word-wrap: break-word;
+        }
+        .c-imagen p{
+          color: rgb(234, 227, 215);
+          font-weight: bold;
+          top: 250px;
+          left: 30px;
+          font-size: 700%;
+          position: absolute;
+          max-width: 70%;
+          word-wrap: break-word;
+      }
+
+       /* Este es el estilo del reloj*/
+
+       .Reloj{
+        font-family: var(--OpenSans);
+        text-align: center;
+        margin-bottom: 10px;            
+      justify-content: center;
+      }
+      #clock {
+        font-size: 30px;
+        color: #744f28;
+    }
+    #message {
+        font-size: 20px;
+    }
+    .abierto{
+      color: #744f28;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; 
+      border: #744f28 solid 1px;
+    }
+    .cerrado {
+      color: white;
+      background-color: #744f28;
+      border-radius: 10px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; 
+  }
+
+  .am-pm {
+    font-size: 20px;
+}
+    .conteiner .c-formulario{
+      padding-top: 1.5rem;
+    }
+
+      .c-formulario .inputs{
+        background-color: rgb(234, 227, 215);
+        width: 520px;
+        height: 820px;
+        margin-left: 1.7rem;
+      }
+        .inputs .join{
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          text-align: center;
+        }
+          .inputs .join div{
+            width: 250px;
+            background-color: #fff;
+          }
+            .inputs div:nth-child(1) div:nth-child(1) p{
+              color: #744F28;
+              font-weight: bold;
+              font-family: var(--OpenSans);
+              font-size: 14pt;
+            }
+
+          
+
+        .inputs label,input,select{
+          color: #333333;
+          font-family: var(--OpenSans);
+          font-weight: bold;
+          font-size: 11pt;
+          margin-top: 33px;
+          padding:10px;
+        }
+
+        .inputs select,input{
+          background-color: #744F2875;
+          color: #EAE3D7;
+          font-family: var(--OpenSans);
+          font-size: 10pt;
+          font-weight: bold;
+          margin-left: 35px;
+          margin-top: 35px;
+          width: 272px;
+          height: 37px;
+          border-radius: 10px;
+          border: none;
+          text-align: -webkit-center;
+          outline: none;
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .inputs label{
+          display: inline-block;
+          width: 185px;
+          vertical-align: middle;
+        }
+
+          ::placeholder { color: #EAE3D7; }
+
+          input[type=number]::-webkit-inner-spin-button, 
+          input[type=number]::-webkit-outer-spin-button 
+                { 
+                 -webkit-appearance: none; 
+                 margin: 0; 
+                }
+
+        .inputs input:focus,select:focus{
+          border: 1px solid white;
+          box-shadow: 0 0 2px 2px #744F2870;
+        }
+
+    .conteiner .inputs .access{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;    
+      margin: 10px; 
+    }    
+      .inputs .access div:nth-child(1){
+        width: 250px;
+        padding-top: 12px;
+      }
+        .inputs .access div:nth-child(1) input{
+          height: 65px;
+          margin: 0px;
+          border-radius: 30px;
+          color: #482D11;
+          background-color: #E9D7C5;
+          cursor: pointer;
+        }
+          .access div:nth-child(1) input:hover{
+            border: 1px solid white;
+            box-shadow: 0 0 2px 2px #744F2870;
+          }
+      .access div:nth-child(2) {
+        margin: 0;
+        padding: 0;
+        display: contents;
+      }
+        .access div:nth-child(2) p{
+          padding: 25px;
+          color: #333333;
+        }
+          .access div:nth-child(2) p a{
+            color: #744F28;
+          }
+            .access div:nth-child(2) a:hover{
+              font-weight: bold;
+              text-decoration: underline;
+            }
+            .bx{
+              font-size: 25px;
+              transform: translateY(45px);
+              cursor: pointer;
+              position: absolute;
+            }

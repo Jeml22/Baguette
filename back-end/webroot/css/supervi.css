@@ -1,0 +1,130 @@
+/* Miligram overrides */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+/* Estilos home */
+body{
+    background: #eae3d7
+}
+main{
+    background: #eae3d7;
+}
+
+table{
+    margin-bottom: 20px;
+}
+th{
+    border-bottom: 2px solid #744f28;
+    text-align: center;
+    color: black;
+}
+td{
+    border-bottom: 1px solid #744f28;
+    text-align: center;
+    color: black;
+}
+td:hover{
+    font-size: 19px;
+}
+
+/* Estilo boton */
+.salid div{
+    margin-left: 111rem;
+}
+
+.salid a{
+    background: #744f28; 
+    color: #eae3d7;
+    font-size: 16px;
+}
+
+.salid a:hover{
+    background: red;
+}
+/* Estilos default */
+
+.navbar{
+    background: #744f28;
+    margin-bottom: 50px;
+}
+
+.texti{
+    color: #eae3d7;
+    font-size: 17px;
+}
+
+.texti:hover{
+
+}
+
+.dropdown-item{
+    background: #744f28;
+    color: #eae3d7;
+    font-size: 13px;
+    text-align: center;
+}
+
+.menus{
+    background: #744f28;
+    border: solid 1px  #eae3d7;
+}
+
+.sitio{
+    color: #eae3d7;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.sitio:hover{
+    color: #eae3d77b;
+    font-size: 30px;
+}
+
+/* Footer */
+
+footer{
+    border: 1px solid black;
+    background: #744f28;
+    height: 120px;
+    
+}
+
+/* fin */
+
+.top-nav-links,
+.side-nav,
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.side-nav a,
+.top-nav-links a,
+th a,
+.actions a {
+    color: #606c76;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .top-nav {
+        margin: 0 auto;
+    }
+    .side-nav {
+        margin-bottom: 1rem;
+    }
+    .heading {
+        margin-bottom: 1rem;
+    }
+    .side-nav-item {
+        display: inline;
+        margin: 0 1.5rem 0 0;
+    }
+    .asc:after {
+        content: " \2192";
+    }
+    .desc:after {
+        content: " \2190";
+    }
+}

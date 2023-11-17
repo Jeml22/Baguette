@@ -1,0 +1,149 @@
+@import url("fonts/YanoneKaffeesatz.css");
+@import url("fonts/OpenSans.css");
+
+:root {
+  --Caveat: "Caveat", cursive;
+  --YanoneKaffeesatz: "Yanone Kaffeesatz", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --chinese:"chinese"
+}
+.f-lario .label{
+  background-color: rgb(234, 227, 215);
+  width: 620px;
+  height: 620px;
+  margin-left: 30%;
+  margin-top: 250px;
+  
+}
+.label .blob{
+  display: flex;
+ 
+  
+}
+.blob{
+  margin-left: 25px;
+  color: #744F28;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+  .label .blob div{
+    width: 400px;
+    margin-top: 20px;
+  }
+.texto{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: #744F28;
+margin-left: 20px;
+margin-top: 10px;
+}  
+.texto2{
+color: #744F28;
+margin-left: 20px;
+margin-top: 20px;
+}
+.tex3{
+color: #744F28;
+margin-left: 20px;
+}
+.regis{
+font-size: 20px;
+ margin: 0%; 
+ color: #744F28;
+}
+h4{
+text-align: left;
+margin: 2%;
+}
+
+.botons{
+align-items: center;
+cursor: pointer;
+border: solid 2px gray;
+border-radius: 24px;
+background: rgb(233, 215, 197);
+color: #352b19;
+width: 200px;
+height: 46px;
+margin: 10px;
+font-size: 15px;
+}
+.botons a{
+color: unset;  
+}
+
+.lin {
+border-bottom: #744F28 1px solid;
+margin-top: 20px;
+opacity: 0.4;
+}
+.tarjet{
+margin-left: 20px;
+margin-top: 10px;
+color: black;
+}
+.relleno{
+background-color: rgb(255, 255, 255);
+margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 37px;
+    border-radius: 12px;
+    text-align:left;
+    outline: none;
+    display: inline-block;
+    border: 0.1px solid rgba(66, 65, 65, 0.308);  
+  }
+  .tex3{
+    width: 10px;
+  }
+  .relleno2{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50px;
+    height: 37px;
+    border-radius: 10px;
+    border: 0.1px solid rgba(66, 65, 65, 0.308);
+  }
+  .selecciones{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    color: grey;
+    content: "\25BE"; 
+  }
+  
+  .barras{
+    width:350px;
+    height: 37px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;  
+  }
+  .f-lario {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    visibility: hidden;
+  }
+  .poop{
+    border-radius: 12px;
+  }
+  .active {
+    visibility: visible;
+    }
+      #boton3:checked ~ .f-lario{
+        visibility: visible;
+        }
+        .cerrar{
+          margin-right: 2%;
+        }
